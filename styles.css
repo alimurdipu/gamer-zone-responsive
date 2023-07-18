@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  height: 130px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.logo-container img {
+  width: 85px;
+  height: 40px;
+  margin-right: 15px;
+}
+.logo-container p {
+  font-size: 45px;
+  font-weight: 700;
+}
+.g {
+  color: #ff42a5;
+}
+.nav-items-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.nav-items-container a {
+  list-style: none;
+  text-decoration: none;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-items-btn {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px;
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.youtube-btn{
+    color: #F61C0D;
+    height: 24px;
+    width: 24px;
+}
+/* nav section styles end */
+
+
+@media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+        width: 100%;
+        height: 250px;
+    }
+    
+    .logo-container img {
+        width: 60px;
+        height: 30px;
+        margin-right: 15px;
+    }
+    .logo-container p {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .nav-items-container{
+        flex-direction: column;
+        gap: 10px;
+        width: 65%;
+    }
+}
