@@ -287,7 +287,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .footer-items-container a {
   list-style: none;
@@ -449,6 +448,13 @@
     width: 100%;
     padding: 5px;
     height: 455px;
+  }
+  .footer-items-container {
+    gap: 28px;
+  }
+  .footer-policy,
+  .footer-icons {
+    gap: 15px;
   }
 }
 
