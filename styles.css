@@ -272,7 +272,7 @@
   font-size: 13px;
   font-weight: 600;
 }
-.btn-img-section-first p:hover {
+.btn-img-section-first:hover p {
   color: #ff42a5;
 }
 .btn-img-section-first img {
