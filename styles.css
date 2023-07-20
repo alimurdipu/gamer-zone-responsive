@@ -158,6 +158,28 @@
   width: 250px;
   border-radius: 16px;
 }
+.games-img-playbtn img {
+  height: 300px;
+  width: 250px;
+  border-radius: 16px;
+}
+.games-img-playbtn {
+  width: 100%;
+  position: relative;
+}
+.play-btn {
+  position: absolute;
+  width: 100%;
+  bottom: 150px;
+}
+.play-btn p {
+  color: #f61c0d;
+  font-weight: 400;
+}
+.play-btn img {
+  width: 60px;
+  height: 60px;
+}
 .online-games-img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
